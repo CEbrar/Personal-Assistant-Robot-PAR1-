@@ -1,16 +1,17 @@
 # PAR1 Project Plan
 
-PAR1 stands for "Personal Assistant Robot". It is an ESP32-based personal assistant robot project. The goal of this project is to build a working robot prototype that combines voice interaction, AI-generated responses, servo motor movement, speaker output, and a 3D-printed body.
+PAR1 stands for "Personal Assistant Robot". It is an ESP32-S3-based personal assistant robot project. The goal of this project is to build a working robot prototype that combines voice interaction, AI-generated responses, servo motor movement, speaker output, and a 3D-printed body.
 
 ## Main Goals
 
-- Build a working ESP32-based robot prototype.
-- Receive voice or command input through a microphone.
+- Build a working ESP32-S3-based robot prototype.
+- Receive voice or sound input through INMP441 I2S digital microphone modules.
 - Generate responses using an AI API.
-- Provide audio output through a speaker or amplifier module.
-- Add basic movement using servo motors.
+- Provide audio output through a MAX98357 I2S amplifier and a mini speaker.
+- Add basic movement using SG90 mini servo motors and a pan-tilt bracket.
 - Design and build a 3D-printed robot body.
 - Document the entire development process on GitHub.
+- Display simple robot eye animations or status information using a 0.96 inch I2C OLED screen.
 
 ## Project Steps
 
